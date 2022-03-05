@@ -158,15 +158,14 @@ a.btn-send:hover {
 	z-index: 9999;
 }
 #pre-status, .preload-placeholder {
-	background-image:url(../preloader.gif);
+	background-image:url(../images/preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 296px;
-	left: 38%;
-	margin: -20px 0 0 -20px;
+	height: 100vh;
+	margin: 0 auto;
 	position: absolute;
-	top: 32%;
-	width: 296px;
+	top: 5%;
+	width: 100%;
 }
 .preload-placeholder {
 	background: none;
