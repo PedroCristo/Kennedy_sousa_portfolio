@@ -590,6 +590,122 @@ background:var(--interactive-color);
 	padding-top:20px;
 }
 
+/*******************************
+*                              *
+*      CONTACT SECTION         *
+*                              *
+*******************************/
+
+#contact {
+	text-align:center;
+	padding:3% 0% 0% 2%;
+}
+.contact-sec-1 {
+	text-align:left;
+}
+.contact-sec-1 h4 {
+	font-weight:bold;
+}
+.contact-sec-1 ul.contact-form li i.fa {
+	color:#666;
+	float:left;
+	margin-right:10px;
+}
+.contact-sec-1 ul.contact-form li h6 {
+	font-size:14px;
+	color:#666;
+	margin:0;
+}
+.contact-sec-1 ul {
+	padding:0;
+	position: relative;
+	top: 20px;
+}
+.contact-sec-1 ul li {
+	display:block;
+	padding-bottom: 30px;
+}
+.contact-sec-1 ul li a {
+	color:#666;
+}
+.contact-sec-1 ul li a:hover {
+	color:var(--interactive-color);
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+label {
+	font-size:15px;
+	font-weight:normal;
+	float:left;
+	margin:0px 0px 20px 0px;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+textarea.form-control {
+	min-height: 120px;
+	resize: none;
+}
+.form-control {
+	border: 1px solid #ccc;
+	height: 35px;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+/*******************************
+*                              *
+*        FOOTER SECTION        *
+*                              *
+*******************************/
+#footer {
+	position:relative;
+	top:30px;
+	text-align:center;
+	padding-top: 8px;
+	background-color: #111;
+}
+#footer h2 {
+	color:#444;
+	margin:20px 0px 40px 0px;
+	text-transform:none;
+}
+#footer ul li {
+	display:inline-block;
+	margin-right:20px;
+}
+#footer ul li a i.fa {
+	color:#999;
+	font-size:22px;
+	border:2px solid #999;
+	height:50px;
+	width:50px;
+	border-radius:50px;
+	padding:25%;
+}
+#footer ul li.facebook i.fa:hover {
+	color:#3b5998;
+	border:2px solid #3b5998;
+}
+
+#footer ul li.linkedin i.fa:hover {
+	color:#007bb6;
+	border:2px solid #007bb6;
+}
+#footer ul li.instagram i.fa:hover {
+	color:#D40142;
+	border:2px solid #D40142;
+}
+#footer hr {
+	width: 80%;
+}
+
+#footer p {
+	padding-bottom: 8px;
+}
 
 /*******************************
 *                              *
