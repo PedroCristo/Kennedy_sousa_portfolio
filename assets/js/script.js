@@ -313,7 +313,7 @@ $(function () {
 
 /*******************************
  *                              *
- * Index-05-text-Slider         *
+ *    Index-05-text-Slider      *
  *                              *
  *******************************/
 $(document).ready(function () {
