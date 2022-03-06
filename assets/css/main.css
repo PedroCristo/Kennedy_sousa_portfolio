@@ -1,5 +1,27 @@
 /*******************************
 *                              *
+*               FONTES         *
+*                              *
+*******************************/
+
+@font-face {
+	font-family: 'helvetica_ce_55_romanregular';
+ src: url('../assets/fonts/helvetica_neue_ce_55_roman-webfont.eot');
+ src: url('../assets/fonts/helvetica_neue_ce_55_roman-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/helvetica_neue_ce_55_roman-webfont.woff2') format('woff2'), url('../assets/fonts/helvetica_neue_ce_55_roman-webfont.woff') format('woff'), url('../assets/fonts/helvetica_neue_ce_55_roman-webfont.ttf') format('truetype'), url('../assets/fonts/helvetica_neue_ce_55_roman-webfont.svg#helvetica_ce_55_romanregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'open_sansregular';
+ src: url('../assets/fonts/opensans-regular-webfont.eot');
+ src: url('../assets/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/opensans-regular-webfont.woff2') format('woff2'), url('../assets/fonts/opensans-regular-webfont.woff') format('woff'), url('../assets/fonts/opensans-regular-webfont.ttf') format('truetype'), url('../assets/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+/*******************************
+*                              *
 *        GENERAL STYLES        *
 *                              *
 *******************************/
@@ -188,7 +210,7 @@ a.navbar-brand img {
 	position:absolute;
 }
 #menu .nav {
-	left: 60%;
+	left: 50%;
 	position: relative;
 }
 #menu ul.nav li a {

@@ -152,8 +152,9 @@
     }
 
     #menu .nav {
-        left: 0%;
+        left: 30%;
         float: left;
+        height: 85px;
     }
 
     .navbar-default .navbar-toggle {
@@ -161,7 +162,7 @@
     }
 
     .navbar-default .navbar-toggle .icon-bar {
-        background: #999;
+        background: #fff;
     }
 
     .navbar-default .navbar-toggle:hover .icon-bar,
@@ -175,7 +176,7 @@
 
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
-        background: #e73131;
+        background:  rgb(94, 163, 115);
         transition: all 0.5s;
         -moz-transition: all 0.5s;
         -o-transition: all 0.5s;
@@ -302,7 +303,7 @@
     }
 
     .navbar-default .navbar-toggle .icon-bar {
-        background: #999;
+        background: #fff;
     }
 
     .navbar-default .navbar-toggle:hover .icon-bar,
@@ -316,7 +317,7 @@
 
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
-        background: #e73131;
+        background:  rgb(94, 163, 115);
         transition: all 0.5s;
         -moz-transition: all 0.5s;
         -o-transition: all 0.5s;
@@ -392,7 +393,9 @@
 
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.8);
+        width: 121%;
+        margin: -35px;
     }
 
     .navbar-nav ul {
